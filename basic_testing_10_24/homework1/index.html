@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        table th,
+        table td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .cell {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cell-img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .email-img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .form-section {
+            display: flex;
+        }
+
+        textarea {
+            width: 300px;
+            height: 100px;
+        }
+
+        input {
+            width: 300px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#products">Product Comparison</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="mission"> Our Mission</h2>
+        <hr>
+        <p>Welcome to our Laptop Comparison Guide! In today's digital age, finding the perfect laptop can be a
+            daunting task, with an overwhelming array of choices to sift through. Whether you're a student, a
+            professional, a gamer, or simply looking for a reliable and portable computing companion, our comprehensive
+            laptop comparison resource is here to simplify your decision-making process.
+        </p>
+        <p>
+            We understand that choosing the right laptop involves considering various factors, such as performance,
+            design, features, and budget. Our goal is to provide you with an in-depth analysis of a variety of laptops,
+            helping you make an informed decision. We've gathered detailed specifications and user reviews for an
+            assortment of laptops, making it easier for you to compare and contrast their strengths and weaknesses.
+        </p>
+        <p>
+            Whether you're seeking a lightweight laptop for on-the-go productivity or a high-performance machine for
+            demanding tasks, our Laptop Comparison Guide is your one-stop destination for making the best choice.
+            Explore our product comparisons, read user reviews, and discover the perfect laptop that aligns with your
+            needs and preferences. Let's embark on this journey to find the ideal laptop that suits your lifestyle and
+            helps you accomplish your computing goals with ease."
+        </p>
+        <hr>
+    </main>
+    <section>
+        <h2 id="products">Product Comparison</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Processor</th>
+                    <th>RAM</th>
+                    <th>Storage</th>
+                    <th>Display</th>
+                    <th>Graphic Card</th>
+                    <th>Price</th>
+                    <th>User Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Apple</td>
+                    <td>
+                        <a target="_blank" href="https://www.apple.com/shop/buy-mac/macbook-pro/16-inch">
+                            <div class="cell">
+                                <img class="cell-img" src="images/apple_mbp16.png" alt="Apple MacBook Pro">
+                                <span>MacBook Pro</span>
+                            </div>
+                        </a>
+                    </td>
+                    <td>Apple M2 Pro</td>
+                    <td>64GB</td>
+                    <td>1TB SSD</td>
+                    <td>16"</td>
+                    <td> - </td>
+                    <td>$2,499.00</td>
+                    <td>4.5</td>
+                </tr>
+                <tr>
+                    <td>HP</td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.dell.com/en-us/shop/cty/pdp/spd/g-series-16-7620-laptop/gn7620frqch?gacd=9684992-1104-5761040-266906002-0&dgc=ST&SA360CID=71700000111444214&&gad_source=1&gclid=CjwKCAjw-eKpBhAbEiwAqFL0mntUOZT5gDJqao-JYCsd4DanvazUE9yUgR7bzLXk8t7Y3R9s77ht8hoC6oQQAvD_BwE&gclsrc=aw.ds">
+                            <div class="cell">
+                                <img class="cell-img" src="images/hp_omen16.png" alt="HP Omen 16">
+                                <span>Omen 16</span>
+                            </div>
+                        </a>
+                    </td>
+                    <td>AMD 8-core Ryzen 7 6800H</td>
+                    <td>32GB</td>
+                    <td>1TB SSD</td>
+                    <td>16"</td>
+                    <td>NVIDIA GeForce RTX 3060 6GB</td>
+                    <td>$1,619.00</td>
+                    <td>4.5</td>
+                </tr>
+                <tr>
+                    <td>Dell</td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.dell.com/en-us/shop/cty/pdp/spd/xps-13-9315-laptop/xn9315cto030s?gacd=9684992-1105-5761040-266906002-0&dgc=ST&SA360CID=71700000109860337&gad_source=1&gclid=CjwKCAjw-eKpBhAbEiwAqFL0mrwJS7mVcApTIUEQ8MkNccquPRIJ_J9xcbbCVnOLXKM8MFE0Nkq6VRoCADQQAvD_BwE&gclsrc=aw.ds">
+                            <div class="cell">
+                                <img class="cell-img" src="images/dell_xps13.png" alt="Dell XPS13">
+                                <span>XPS 13</span>
+                            </div>
+                        </a>
+                    </td>
+                    <td>Intel Core i7-1185G7</td>
+                    <td>16GB</td>
+                    <td>512GB SSD</td>
+                    <td>13.4"</td>
+                    <td>Intel Iris Xe Graphics</td>
+                    <td>$1,399.00</td>
+                    <td>4.5</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <h2 id="contact">Contact Us: </h2>
+    <section class="form-section">
+        <img class="email-img" src="images/email.png" alt="email">
+        <form>
+            <input name="user" placeholder="name"><br>
+            <input type="email" name="email" placeholder="email"><br>
+            <input name="subject" placeholder="subject"><br>
+            <textarea name="message" placeholder="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</body>
+
+</html>
